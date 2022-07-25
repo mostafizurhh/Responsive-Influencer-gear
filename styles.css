@@ -1,6 +1,10 @@
 /* ------------common style----------- */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+header {
     margin: 10px 50px;
 }
 
@@ -9,9 +13,10 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 10px 50px;
 }
 
-/*------------ 1st section -------------*/
+/*------------ Influencer journey section -------------*/
 .influencer-divs {
     display: flex;
     margin-left: 10px;
@@ -45,8 +50,13 @@ main {
     width: 100%;
 }
 
-/* logos part */
+/* ------------logos part------------- */
+.logo {
+    padding: 10px 80px;
+}
+
 hr {
+
     margin: 25px 0px;
 }
 
