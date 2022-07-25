@@ -151,3 +151,11 @@ footer h4 {
     font-size: 24px;
     margin: 0%;
 }
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons span {
+    margin-left: 10px;
+}
