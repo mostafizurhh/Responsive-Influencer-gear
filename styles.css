@@ -1,3 +1,4 @@
+/* ------------common style----------- */
 body {
     margin: 50px;
 }
@@ -9,6 +10,7 @@ main {
     flex-direction: column;
 }
 
+/*------------ 1st section -------------*/
 .influencer-divs {
     display: flex;
     margin-left: 10px;
@@ -43,4 +45,17 @@ main {
 
 .influencer-images img {
     width: 100%;
+}
+
+/* logos part */
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos img {
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    margin: 10px 0px;
 }
