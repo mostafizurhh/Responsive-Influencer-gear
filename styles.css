@@ -1,0 +1,12 @@
+/* 1st section image overlap */
+.circle {
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+
+.camera {
+    position: relative;
+    top: -440px;
+    z-index: 2;
+}
