@@ -82,3 +82,11 @@ h2 {
     color: orange;
     font-size: 16px;
 }
+
+.see-more button {
+    background-color: white;
+    color: #E02C6D;
+    border: 0 solid white;
+    width: 99px;
+    height: 24px;
+}
