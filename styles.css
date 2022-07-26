@@ -77,7 +77,6 @@ main {
 }
 
 hr {
-
     margin: 25px 0px;
 }
 
@@ -183,14 +182,22 @@ footer h4 {
 
 /* ------------- Media querie section ------------- */
 
-/* ----------mobile--------- */
+/* ---------------------mobile display---------------------- */
+
 @media only screen and (max-width:678px) {
+
+    /*------header/navigation section-------*/
+
     header {
-        background-color: #E02C6D;
-        margin: 0%;
+        margin: auto;
+    }
+
+    .menu {
+        margin-right: 50px;
     }
 
     .nav-bar {
+        margin: 0%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -202,8 +209,72 @@ footer h4 {
         display: none;
     }
 
-    main,
-    footer {
+    /*------influencer-div section-------*/
+    main {
+        margin: 0px 20px;
+
+    }
+
+    .influencer-divs {
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .influencer-images {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .influencer-text {
+        text-align: center;
+        width: 100%;
+        margin: 0%;
+    }
+
+    /*------logo section-------*/
+    .logo {
+        margin: 30px 0px;
+        padding: 0%;
+    }
+
+    hr {
         display: none;
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* ------------products section-------- */
+    h2 {
+        margin-top: 0%;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* ------------featured part---------- */
+    .featured {
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .featured-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .featured-image {
+        width: 100%;
     }
 }
