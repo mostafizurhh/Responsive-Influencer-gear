@@ -1,11 +1,32 @@
+/* -------------header section--------- */
+header {
+    margin: 10px 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: rgba(248, 242, 242, 0.738);
+}
+
+nav>div:hover>ul {
+    display: block;
+    padding: 0px;
+    margin: 0;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
 /* ------------common style----------- */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-}
-
-header {
-    margin: 10px 50px;
 }
 
 main {
@@ -158,4 +179,31 @@ footer h4 {
 
 .social-icons span {
     margin-left: 10px;
+}
+
+/* ------------- Media querie section ------------- */
+
+/* ----------mobile--------- */
+@media only screen and (max-width:678px) {
+    header {
+        background-color: #E02C6D;
+        margin: 0%;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    ul,
+    .nav-icon .fa-magnifying-glass {
+        display: none;
+    }
+
+    main,
+    footer {
+        display: none;
+    }
 }
